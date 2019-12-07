@@ -1,0 +1,111 @@
+/* Container */
+.container{
+    margin: 0 auto;
+    border: 0px solid black;
+    width: 50%;
+    height: 250px;
+    border-radius: 3px;
+    background-color: ghostwhite;
+    text-align: center;
+    }
+/* Preview */
+.preview{
+width: 100px;
+height: 100px;
+border: 1px solid black;
+margin: 0 auto;
+background: white;
+}
+
+
+.bg-image {
+    /* The image used */
+    background-image: url("../img/dark-pen.jpeg");
+  
+    /* Add the blur effect */
+    /* filter: blur(2px);
+    -webkit-filter: blur(2px); */
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    z-index: -1;
+  }
+
+.preview img{
+display: none;
+}
+/* Button */
+.button{
+border: 0px;
+background-color: deepskyblue;
+color: white;
+padding: 5px 15px;
+margin-left: 10px;
+}
+
+#recordedAudio {
+    left: 100px;
+    right: 100px;
+    position: relative;
+}
+
+
+#search{
+    width: 80%; 
+    margin: auto; 
+    display: block; 
+    text-align: center; 
+    margin-top: 50px;
+}
+
+#searchin{
+    float: left;
+    width: 90%; 
+    height: 30px;
+}
+
+#btngo{
+    float: left;
+    width: 10%; 
+    height: 30px;
+    background-color: #333;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+#list{
+     padding: 0;
+     list-style-type: none;
+     display: none; 
+     position: absolute; 
+     z-index: 9999; 
+     width: 80%; 
+     margin-top: 30px;
+     max-height: 120px;
+     overflow: hidden;
+     overflow-y: scroll;
+}
+
+#list > li{
+     text-align: left;
+     padding: 5px;
+     display: none;
+}
+
+#list > li:hover{
+      background-color: #eee;
+}
+
+
+#content {
+    margin-top: auto;
+    margin-left: auto;
+    vertical-align: middle; 
+}
